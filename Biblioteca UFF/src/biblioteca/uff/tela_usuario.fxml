@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="userAnchorPane" prefHeight="328.0" prefWidth="380.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="biblioteca.uff.Tela_usuarioController">
+   <children>
+      <Button fx:id="simpleSearchUserButton" layoutX="55.0" layoutY="91.0" mnemonicParsing="false" onAction="#simpleSearchButtonAction" prefHeight="59.0" prefWidth="263.0" style="-fx-background-color: #4286f4;" text="Busca Simples de usuário" textFill="WHITE" AnchorPane.bottomAnchor="178.0" AnchorPane.leftAnchor="55.0" AnchorPane.rightAnchor="62.0" AnchorPane.topAnchor="91.0">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="117.0" layoutY="77.0" textFill="#ff3200" />
+      <Button fx:id="showUsers" layoutX="55.0" layoutY="12.0" mnemonicParsing="false" onAction="#showUsersButtonAction" prefHeight="59.0" prefWidth="263.0" style="-fx-background-color: #4286f4;" text="Mostrar usuários" textFill="WHITE" AnchorPane.leftAnchor="55.0" AnchorPane.rightAnchor="62.0">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="advancedUserSearchButton" layoutX="54.0" layoutY="171.0" mnemonicParsing="false" onAction="#advancedSearchButtonAction" prefHeight="59.0" prefWidth="263.0" style="-fx-background-color: #4286f4;" text="Busca avançada" textFill="WHITE" AnchorPane.bottomAnchor="98.0" AnchorPane.leftAnchor="54.0" AnchorPane.rightAnchor="63.0" AnchorPane.topAnchor="171.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="manageUsersButton" layoutX="55.0" layoutY="254.0" mnemonicParsing="false" onAction="#manageButtonAction" prefHeight="59.0" prefWidth="263.0" style="-fx-background-color: #4286f4;" text="Gerenciar usuários" textFill="WHITE" AnchorPane.leftAnchor="55.0" AnchorPane.rightAnchor="62.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

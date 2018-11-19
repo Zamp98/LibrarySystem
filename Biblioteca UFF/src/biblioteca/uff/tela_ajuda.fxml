@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="userAnchorPane" prefHeight="328.0" prefWidth="380.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="biblioteca.uff.Tela_usuarioController">
+   <children>
+      <ScrollPane layoutX="104.0" layoutY="80.0" prefHeight="184.0" prefWidth="186.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <content>
+            <Label fx:id="helpText" alignment="TOP_LEFT" blendMode="MULTIPLY" contentDisplay="CENTER" lineSpacing="1.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="523.0" prefWidth="365.0" text="Ajuda: 1._Por_onde_começar 2._Livros 3._Usuários 4._Administrador 1._O_Library_System_é_um_Software_desenvolvido_com_o_intuito_de_melhorar_os_serviços_de_uma_biblioteca._Ele_Gerencia_os_dados_da_mesma,_salvando-os_num_banco_de_dados_que_pode_ser_acessado_a_qualquer_momento_pelo_programa._Para_começar_a_utilizar_o_sistema,_basta_efetuar_o_Login,_logo,_terá_o_acesso_à_tela_principal. 2.Os_livros_são_a_parte_mais_importante_da_biblioteca,_logo_estão_acessíveis_no_botão_“Livros”._Ao_acessar_esse_campo,_será_possível_efetuar_a_busca_por_livros_e_o_gerenciamento_deles. 3.Para_que_uma_biblioteca_funcione_é_necessário_ter_alguém_que_a_frequente._Todos_os_que_frequentam_a_biblioteca_e_alugam_livros_devem_ser_registrados_como_usuários_da_mesma._Basta_clicar_no_botão_de_Usuário_para_ter_acesso_às_opções_inerentes_a_eles. 4.As_pessoas_que_trabalham_da_biblioteca_são_os_administradores_dela,_logo_devem_ter_acesso_à_conta_de_administrador._A_partir_dela,_será_possível_usar_o_Library_System." textOverrun="LEADING_ELLIPSIS" wrapText="true">
+               <font>
+                  <Font name="Calibri Light" size="15.0" />
+               </font>
+            </Label>
+         </content>
+      </ScrollPane>
+      <TextField layoutX="-84.0" layoutY="-100.0" />
+   </children>
+</AnchorPane>
